@@ -6,6 +6,6 @@
     <title>Sistem Informasi Akademi SMKN 24</title>
 </head>
 <body>
-    Ini adalah Halaman Index
+    Ini adalah Halaman Index, Selamat Datang {{ $name }}
 </body>
 </html>
