@@ -9,6 +9,9 @@ class PostsController extends Controller
 {
     public function show($param)
     {
+        // test verified commit by GPG Siggy
+
+
         //$tmp = \DB::table('post')->where('slug',$param)->first();
         $tmp = Post::where('slug', $param)->firstOrFail();
         if(! $tmp) abort(404);
