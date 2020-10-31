@@ -21,6 +21,9 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/about',function()  {
+    return view('about');
+});
 // Route::get('/post/{param}', function($param) {
 //     $tmp = [
 //         'first-post'    => "Hello ini post pertama dari param",
